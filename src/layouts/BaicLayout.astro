@@ -1,0 +1,41 @@
+---
+
+/**
+ * Dev note: This layout is used to add all of the basic layout elements 
+ * shared by all pages of the project
+ * 
+ * Since all pages use the same font, this is where it is injected
+ * 
+ * Note that the navbar is not injected due to custom navbar for the landing page.
+ * 
+ * If some behaviour from the BasicLayout is does not work for certain pages, please 
+ * create a new layout file where you add the font and other elements shared by your
+ * layout and this one.
+ */
+
+//  FIXME: The fontsource package loads the font file after a small but visible delay.
+// Importing the project's font. 
+// Supports weights 100-900
+import '@fontsource-variable/montserrat';
+
+const {title} = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+      <slot /> <!-- your content is injected here -->
+  </body>
+
+  <style>
+        body {
+            font-family: 'Montserrat Variable', sans-serif;
+        }
+    </style>
+</html>
