@@ -116,7 +116,7 @@ import LandingCard from "../components/astro/LandingCard.astro"
 
 		<section class="w-full" id="all_projects_redirect">
 
-			<div class="w-full grid tablet:grid-cols-6 px-5 gap-x-5">
+			<a class="w-full grid tablet:grid-cols-6 px-5 gap-x-5" href="/projects">
 				<!-- Top images -->
 				<div class="col-span-2 col-start-2 tablet:h-[380px] items-center flex overflow-hidden">
 					 <img src="/images/test/image_1.png" height="600px"/>
@@ -126,7 +126,7 @@ import LandingCard from "../components/astro/LandingCard.astro"
 				</div>
 
 				<!-- Link -->
-				 <a href="/projects" class="col-span-6 header text-center pt-4">See All Projects</a>
+				 <h2 class="col-span-6 header text-center pt-4">See All Projects</h2>
 
 				<!-- Bottom images -->
 				<div class="col-span-2 col-start-1 tablet:h-[380px] mt-10 items-center flex overflow-hidden">
@@ -135,7 +135,7 @@ import LandingCard from "../components/astro/LandingCard.astro"
 				<div class="col-span-3 col-start-3 tablet:h-[380px] items-center flex overflow-hidden">
 					<img src="/images/test/image_4.png" height="600px"/>
 				</div>
-			</div>
+			</a>
 
 		</section>
 
@@ -197,6 +197,7 @@ import LandingCard from "../components/astro/LandingCard.astro"
 	// so that their fetching can be optimized 
 	// in the future
 	import '../scripts/hero-animations.js'
+	import "../scripts/cursor.js"
 </script>
 
 
