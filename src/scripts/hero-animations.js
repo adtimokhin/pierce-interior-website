@@ -24,6 +24,58 @@ tlSelectedProjects.to("#project_3", {
     ease:"none"
 });
 
+// Animations for the View All Projects section
+const allProjectsSection = document.querySelector("#all_projects_redirect");
+const sectionImageContainers = gsap.utils.toArray("#all_projects_redirect div");
+const sectionImages = gsap.utils.toArray("#all_projects_redirect div img");
+
+// 1. Mouse follow interaction
+// On mouse move inside the section the images will move slightly to the opposite direction to the mouse
+// The movement amplitude will depend on the "depth" of the image
+// For now, that will be an arbitary value assigned how I feel will make the animation look
+// Better.
+allProjectsSection.addEventListener("mousemove", animateImagesMouseMove);
+function animateImagesMouseMove(e) {
+    sectionImageContainers.forEach((container, index)=>{
+        const depth = 120; // arbitrary value that controls the amplitude of how much the 
+                           // images follow the cursor
+        const rect = container.getBoundingClientRect();
+        const containerCenterX = rect.left + rect.width / 2;
+        const containerCenterY = rect.top + rect.height / 2;
+
+        const moveX = (e.clientX - containerCenterX) / depth;
+        const moveY = (e.clientY - containerCenterY) / depth;
+        index ++;
+    
+        gsap.to(container, {
+          x: -moveX * index,
+          y: -moveY * index,
+        });
+    })
+}
+
+
+// 2. Parallax effect
+// The images inside the containers are larger than the containers themselves.
+// All of the images are of the known height, so we can use it to manipulate the images inside the containers
+const tlAllProjects = gsap.timeline({
+    scrollTrigger:{
+        trigger: "#all_projects_redirect",
+        start: "top center",
+        end: "bottom top",
+        scrub: 1,
+        markers:true
+    }
+});
+tlAllProjects.to(sectionImages, {
+    y:"-40px",
+    stagger: 0.1
+});
+
+// Animation Idea: Add it so that the images inside the containers will move in the direction the mouse moves
+// It might be too visually complex thought.
+
+
 // Animation for the Our Design Process section
 const tlDesignProcess = gsap.timeline({
     scrollTrigger:{
@@ -53,8 +105,6 @@ function calcTransform(property, value) {
       return computed; 
     };
   }
-
-
 
 
 

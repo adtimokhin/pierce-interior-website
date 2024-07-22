@@ -3,7 +3,6 @@ import Image from "astro/components/Image.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
 import LandingCard from "../components/astro/LandingCard.astro"
 
-
 ---
 
 <BasicLayout title="Pierce Interirios | Home">
@@ -62,42 +61,43 @@ import LandingCard from "../components/astro/LandingCard.astro"
 		<section class="w-full h-[300vh] relative" id="selected_projects">
 			<div class="w-full h-screen sticky top-0 overflow-hidden" id="display_div">
 				<div class="w-full h-screen relative bg-background project_card" id="project_1">
-					<div class="w-full space-y-7 absolute bottom-0">
+					<a class="w-full space-y-7 absolute bottom-0" href="/projects/skyline-serenity">
 						<div class="w-full px-5 flex flex-row justify-between items-baseline">
 							<p class="small-body">New York City, USA</p>
 							<h3 class="header">Skyline Serenity</h3>
 							<p class="small-body">March 2022</p>
 						</div>
 						<!-- Image goes into here -->
-						<div class="w-full h-[70vh] bg-lime-300">
-
+						<div class="w-full h-[70vh]">
+							<img src="/images/test/preview_1.png" class="w-full" loading="lazy"/>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="w-full h-screen relative bg-background project_card" id="project_2">
-					<div class="w-full space-y-7 absolute bottom-0">
+					<a class="w-full space-y-7 absolute bottom-0" href="/projects/hamptons-heaven">
 						<div class="w-full px-5 flex flex-row justify-between items-baseline">
 							<p class="small-body">The Hamptons, USA</p>
 							<h3 class="header">Hamptons Haven</h3>
 							<p class="small-body">June 2021</p>
 						</div>
 						<!-- Image goes into here -->
-						<div class="w-full h-[70vh] bg-lime-300">
-
+						<div class="w-full h-[70vh]">
+							<img src="/images/test/preview_2.png" class="w-full" loading="lazy"/>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="w-full h-screen relative bg-background project_card" id="project_3">
-					<div class="w-full space-y-7 absolute bottom-0">
+					<a class="w-full space-y-7 absolute bottom-0" href="/projects/ocean-breeze-villa">
 						<div class="w-full px-5 flex flex-row justify-between items-baseline">
 							<p class="small-body">Malibu, USA</p>
 							<h3 class="header">Ocean Breeze Villa</h3>
 							<p class="small-body">September 2021</p>
 						</div>
 						<!-- Image goes into here -->
-						<div class="w-full h-[70vh] bg-lime-300">
+						<div class="w-full h-[70vh]">
+							<img src="/images/test/preview_3.png" class="w-full" loading="lazy"/>
 						</div>
-					</div>
+					</a>
 				</div>	
 			</div>
 		</section>
@@ -118,19 +118,27 @@ import LandingCard from "../components/astro/LandingCard.astro"
 
 			<div class="w-full grid tablet:grid-cols-6 px-5 gap-x-5">
 				<!-- Top images -->
-				<div class="bg-lime-400 col-span-2 col-start-2 tablet:h-[380px]"></div>
-				<div class="bg-lime-400 col-span-2 col-start-5 tablet:h-[380px]"></div>
+				<div class="col-span-2 col-start-2 tablet:h-[380px] items-center flex overflow-hidden">
+					 <img src="/images/test/image_1.png" height="600px"/>
+				</div>
+				<div class="col-span-2 col-start-5 tablet:h-[380px] items-center flex overflow-hidden">
+					<img src="/images/test/image_2.png" height="600px"/>
+				</div>
 
 				<!-- Link -->
 				 <a href="/projects" class="col-span-6 header text-center pt-4">See All Projects</a>
 
 				<!-- Bottom images -->
-				<div class="bg-lime-400 col-span-2 col-start-1 tablet:h-[380px] mt-10"></div>
-				<div class="bg-lime-400 col-span-3 col-start-3 tablet:h-[380px]"></div>
+				<div class="col-span-2 col-start-1 tablet:h-[380px] mt-10 items-center flex overflow-hidden">
+					<img src="/images/test/image_3.png" height="600px"/>
+				</div>
+				<div class="col-span-3 col-start-3 tablet:h-[380px] items-center flex overflow-hidden">
+					<img src="/images/test/image_4.png" height="600px"/>
+				</div>
 			</div>
 
 		</section>
-		
+
 		<section class="w-full h-[700vh] relative" id="design_process">
 			<div class="sticky top-0 w-full h-screen px-5 grid tablet:grid-cols-6 gap-x-5">
 				<div class="col-span-2 h-full">
