@@ -1,8 +1,116 @@
 ---
+import Image from "astro/components/Image.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
+
+
 ---
 
 <BasicLayout title="Pierce Interirios | Home">
-	<h1 class="header">Hellooo</h1>
+	<main>
+		<section class="w-full h-screen" id="hero">
+			<div class="w-full space-y-7">
+			<!-- Image goes to here -->
+			 <div class="w-full h-[50vh] bg-lime-300">
+
+			 </div>
+			<div class="w-full grid desktop:grid-cols-6 tablet:grid-cols-6 desktop:px-5 tablet:px-5 gap-5">
+				<p class="desktop:col-span-2 tablet:col-span-2 body">
+					We renovate homes by closely collaborating with clients to bring 
+					their unique ideas to life. We are committed to transforming your 
+					space to reflect your personal style and preferences with precision
+					and elegance.
+				</p>
+
+				<div class="desktop:col-start-5 tablet:col-start-5 space-y-6">
+					<h4 class="body">
+						We work in
+					</h4>
+					<ul class="small-body space-y-3">
+						<li>New York</li>
+						<li>Los Angeles</li>
+						<li>London</li>
+						<li>Paris</li>
+						<li>Dubai</li>
+					</ul>
+				</div>
+
+				<div class="space-y-6">
+					<h4 class="body">
+						Main services
+					</h4>
+					<ul class="small-body space-y-3">
+						<li>Interior Design</li>
+						<li>Custom Furniture Design</li>
+						<li>Lighting Design</li>
+						<li>Styling</li>
+						<li>Project Coordination</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+
+			<!-- the unexpected navbar -->
+			<div class="w-full tablet:px-5 grid tablet:grid-cols-6 absolute bottom-2 gap-5">
+				<div class="w-full flex justify-start">
+					<Image src="/icons/square_logo_bw.svg" width={39} height={39} alt="logo"/>
+				</div>
+				<a href="/projects" class="col-span-2 col-start-3 border-text border-[1px] rounded-full body px-5 py-2"> All Projects</a>
+				<a href="/projects" class="col-span-2  bg-company text-background rounded-full body px-5 py-2"> All Projects</a>
+			</div>
+		</section>
+
+		<section class="w-full h-[300vh] relative" id="selected_projects">
+			<div class="w-full h-screen sticky top-0 overflow-hidden" id="display_div">
+				<div class="w-full h-screen relative bg-background project_card" id="project_1">
+					<div class="w-full space-y-7 absolute bottom-0">
+						<div class="w-full px-5 flex flex-row justify-between items-baseline">
+							<p class="small-body">New York City, USA</p>
+							<h3 class="header">Skyline Serenity</h3>
+							<p class="small-body">March 2022</p>
+						</div>
+						<!-- Image goes into here -->
+						<div class="w-full h-[70vh] bg-lime-300">
+
+						</div>
+					</div>
+				</div>
+				<div class="w-full h-screen relative bg-background project_card" id="project_2">
+					<div class="w-full space-y-7 absolute bottom-0">
+						<div class="w-full px-5 flex flex-row justify-between items-baseline">
+							<p class="small-body">The Hamptons, USA</p>
+							<h3 class="header">Hamptons Haven</h3>
+							<p class="small-body">June 2021</p>
+						</div>
+						<!-- Image goes into here -->
+						<div class="w-full h-[70vh] bg-lime-300">
+
+						</div>
+					</div>
+				</div>
+				<div class="w-full h-screen relative bg-background project_card" id="project_3">
+					<div class="w-full space-y-7 absolute bottom-0">
+						<div class="w-full px-5 flex flex-row justify-between items-baseline">
+							<p class="small-body">Malibu, USA</p>
+							<h3 class="header">Ocean Breeze Villa</h3>
+							<p class="small-body">September 2021</p>
+						</div>
+						<!-- Image goes into here -->
+						<div class="w-full h-[70vh] bg-lime-300">
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+	</main>
 </BasicLayout>
+
+<script>
+	// Scripts are written in separate files
+	// so that their fetching can be optimized 
+	// in the future
+	import '../scripts/hero-animations.js'
+</script>
+
+
+
 
