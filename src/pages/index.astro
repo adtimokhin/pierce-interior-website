@@ -1,6 +1,7 @@
 ---
 import Image from "astro/components/Image.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
+import LandingCard from "../components/astro/LandingCard.astro"
 
 
 ---
@@ -11,7 +12,6 @@ import BasicLayout from "../layouts/BaicLayout.astro"
 			<div class="w-full space-y-7">
 			<!-- Image goes to here -->
 			 <div class="w-full h-[50vh] bg-lime-300">
-
 			 </div>
 			<div class="w-full grid desktop:grid-cols-6 tablet:grid-cols-6 desktop:px-5 tablet:px-5 gap-5">
 				<p class="desktop:col-span-2 tablet:col-span-2 body">
@@ -55,7 +55,7 @@ import BasicLayout from "../layouts/BaicLayout.astro"
 					<Image src="/icons/square_logo_bw.svg" width={39} height={39} alt="logo"/>
 				</div>
 				<a href="/projects" class="col-span-2 col-start-3 border-text border-[1px] rounded-full body px-5 py-2"> All Projects</a>
-				<a href="/projects" class="col-span-2  bg-company text-background rounded-full body px-5 py-2"> All Projects</a>
+				<a href="#contact_form" class="col-span-2  bg-company text-background rounded-full body px-5 py-2"> Contact Form</a>
 			</div>
 		</section>
 
@@ -99,6 +99,86 @@ import BasicLayout from "../layouts/BaicLayout.astro"
 						</div>
 					</div>
 				</div>	
+			</div>
+		</section>
+
+		<section class="w-full h-fit px-5" id="specialty">
+			<h2 class="header">
+				Our Design<br>Specialty
+			</h2>
+			<p class="w-full large-body text-text/60 text-end">
+				We are world-wide famous 
+			</p>
+			<p class="w-full large-body text-text/60 ">
+				for the interiors that we do. We are most famous for <span class="text-text">Modern Minimalism, Classic Elegance, Contemporary Chic, and Beachfront Luxury.</span>
+			</p>
+		</section>
+
+		<section class="w-full" id="all_projects_redirect">
+
+			<div class="w-full grid tablet:grid-cols-6 px-5 gap-x-5">
+				<!-- Top images -->
+				<div class="bg-lime-400 col-span-2 col-start-2 tablet:h-[380px]"></div>
+				<div class="bg-lime-400 col-span-2 col-start-5 tablet:h-[380px]"></div>
+
+				<!-- Link -->
+				 <a href="/projects" class="col-span-6 header text-center pt-4">See All Projects</a>
+
+				<!-- Bottom images -->
+				<div class="bg-lime-400 col-span-2 col-start-1 tablet:h-[380px] mt-10"></div>
+				<div class="bg-lime-400 col-span-3 col-start-3 tablet:h-[380px]"></div>
+			</div>
+
+		</section>
+		
+		<section class="w-full h-[700vh] relative" id="design_process">
+			<div class="sticky top-0 w-full h-screen px-5 grid tablet:grid-cols-6 gap-x-5">
+				<div class="col-span-2 h-full">
+					<!-- TODO: Make the spacing smaller on smaller devices -->
+					<div class="w-full h-full flex flex-col justify-between py-5">
+						<h2 class="header">Our Design Process</h2>
+						<p class="large-body">We focus on integrating your ideas into your living space. If you like it we add it.</p>
+						<a class="body hover:cursor-pointer" href="#contact_form">skip</a>
+					</div>
+				</div>
+				<!-- TODO: The centering of the card is not done properly -->
+				 <div class="col-span-4 overflow-hidden pt-[26vh]">
+					<div class="space-y-[10vh]" id="card_slider">
+						<LandingCard titleLine1="Initial" titleLine2="Consultation" bodyText="We begin with an initial consultation to understand your vision, preferences, and specific needs for the project. This meeting helps us gather detailed information about your lifestyle, aesthetic preferences, budget, and timeline."/>
+						<LandingCard titleLine1="Concept" titleLine2="Development" bodyText="We create initial design concepts, mood boards, and sketches to align with your vision. These visual aids help set the overall tone and style of the project."/>
+						<LandingCard titleLine1="Design" titleLine2="Proposal" bodyText="We present a detailed design proposal, including layouts, materials, color schemes, and estimated costs. This proposal gives you a clear understanding of the design direction and financial implications."/>
+						<LandingCard titleLine1="Feedback" titleLine2="and Revisions" bodyText="We gather your feedback on the design proposal and make necessary revisions. This ensures the final design reflects your tastes and needs."/>
+						<LandingCard titleLine1="Project" titleLine2="Management" bodyText="We oversee all aspects of the project, coordinating with contractors, suppliers, and artisans. Our management ensures everything is executed to our high standards, staying on schedule and within budget."/>
+						<LandingCard titleLine1="Installation" titleLine2="and Styling" bodyText="We manage the installation of all design elements, including furniture, fixtures, and decor. Our focus is on creating a cohesive and polished space that reflects your vision."/>
+						<LandingCard titleLine1="Final Reveal" titleLine2="" bodyText="We conduct a final walkthrough with you to reveal the transformed space. Any final adjustments are made to ensure you are completely satisfied with the results."/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FIXME: How about we make sections larger than the screen height? -->
+		<section class="w-full h-screen bg-company text-background px-5" id="contact_form">
+
+			<h2 class="header">Schedule a <br/>Call</h2>
+			<!-- Form goes below -->
+
+			<div class="w-full grid tablet:grid-cols-6 gap-5">
+				<p class="col-span-2 body">Ready to discuss your project? Let’s schedule a call with our team</p>
+				<!-- TODO: Make the form fully functional except for sending the api request -->
+				<form class="col-span-2">
+					<div class="w-full">
+						<label class="body" for="name">Name</label>
+						<input name="name" placeholder="Enter Your Name" class="w-full placeholder:text-background/60 bg-transparent px-5 py-2 border-[1px] border-background/60 rounded-full"/>
+					</div>
+					<div class="w-full">
+						<label class="body" for="phone">Phone</label>
+						<div class="w-full placeholder:text-background/60 bg-transparent px-5 py-2 border-[1px] border-background/60 rounded-full flex flex-row justify-center">
+						<p class="body">+7</p>
+						<input name="phone" placeholder="000-000-00-00" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" class="bg-transparent" />
+						</div>
+						<!-- <input name="phone" placeholder="Enter Your Name" class="w-full placeholder:text-background/60 bg-transparent px-5 py-2 border-[1px] border-background/60 rounded-full"/> -->
+					</div>
+				</form>
 			</div>
 		</section>
 	</main>

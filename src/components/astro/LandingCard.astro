@@ -1,0 +1,9 @@
+---
+const {titleLine1, titleLine2, bodyText} = Astro.props;
+---
+
+<div class="w-full h-[60vh] bg-lime-400 flex flex-col justify-between px-5 py-8 text-background landing-card">
+    <!-- TODO: Add the image later -->
+     <h3 class="header w-full text-end">{titleLine1}<br/>{titleLine2}</h3>
+     <p class="body w-1/2">{bodyText}</p>
+</div>
