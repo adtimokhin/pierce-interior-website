@@ -64,7 +64,6 @@ const tlAllProjects = gsap.timeline({
         start: "top center",
         end: "bottom top",
         scrub: 1,
-        markers:true
     }
 });
 tlAllProjects.to(sectionImages, {

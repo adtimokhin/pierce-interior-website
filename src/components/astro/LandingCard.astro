@@ -1,8 +1,10 @@
 ---
-const {titleLine1, titleLine2, bodyText} = Astro.props;
+const {titleLine1, titleLine2, bodyText, imagePath} = Astro.props;
 ---
 
-<div class="w-full h-[60vh] bg-lime-400 flex flex-col justify-between px-5 py-8 text-background landing-card">
+<div class="w-full h-[60vh] flex flex-col justify-between px-5 py-8 text-background landing-card bg-cover"
+style={`background-image: url("${imagePath}");`}
+>
     <!-- TODO: Add the image later -->
      <h3 class="header w-full text-end">{titleLine1}<br/>{titleLine2}</h3>
      <p class="body w-1/2">{bodyText}</p>
