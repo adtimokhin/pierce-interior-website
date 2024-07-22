@@ -1,13 +1,39 @@
 ---
+import ListItem from "../components/astro/ListItem.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
 ---
 
-<BasicLayout title="Pierce Interirios | Home">
-	<main class="w-full min-h-screen bg-text text-background">
-        <h2 class="small-body">small body</h2>
-        <h2 class="body">body</h2>
-        <h2 class="large-body">large body</h2>
-        <h2 class="header">header</h2>
+<BasicLayout title="Pierce Interirios | Projects">
+	<main class="w-full min-h-screen bg-text text-background/60">
+        <ul>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Skyline Serenity" location="New York City, USA" date="March 2022"/>
+            </li>
+            <div class="w-full bg-background/60 h-[1px]"/>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Hamptons Haven" location="The Hamptons, USA" date="June 2021"/>
+            </li>
+            <div class="w-full bg-background/60 h-[1px]"/>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Ocean Breeze Villa" location="Malibu, USA" date="September 2021"/>
+            </li>
+            <div class="w-full bg-background/60 h-[1px]"/>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Parisian Elegance" location="Paris, France" date="December 2020"/>
+            </li>
+            <div class="w-full bg-background/60 h-[1px]"/>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Urban Oasis" location="Dubai, UAE" date="February 2021"/>
+            </li>
+            <div class="w-full bg-background/60 h-[1px]"/>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Loft Luxe" location="London, UK" date="August 2020"/>
+            </li>
+            <div class="w-full bg-background/60 h-[1px]"/>
+            <li>
+                <ListItem link="/projects/skyline-serenity" title="Seaside Sanctuary" location="Miami, USA" date="April 2020"/>
+            </li>
+        </ul>
     </main>
 </BasicLayout>
 
