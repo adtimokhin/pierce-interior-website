@@ -3,7 +3,11 @@ const {link, title, location, date} = Astro.props;
 ---
 
 <a href=`${link}` class="w-full grid tablet:grid-cols-6 hover:text-background duration-200 ease-in px-5 py-7">
-    <p class="col-span-3 body ">{title}</p>
-    <p class="col-span-1 small-body text-start">{location}</p>
-    <p class="col-span-2 small-body text-end">{date}</p>
+    <p class="col-span-2 body hovarable-zone">{title}</p>
+    <div class="col-start-3 col-span-2 small-body text-start hovarable-zone flex justify-end">
+        <p class="">
+            {location}
+        </p>
+    </div>
+    <p class="col-span-2 small-body text-end hovarable-zone">{date}</p>
 </a>

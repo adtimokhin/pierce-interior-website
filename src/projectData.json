@@ -1,0 +1,18 @@
+{
+    "skyline-serenity": {
+        "hero":{
+            "title": "Skyline Serenity",
+            "location": "New York City, USA",
+            "date" : "March 2022",
+            "description" : "A modern, minimalist penthouse with panoramic views of the New York City skyline. A serene, luxurious living space that offers a respite from the bustling city below while incorporating state-of-the-art technology and sustainable design elements."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "4,500 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 2.5 million"},
+                {"title" : "Awards" , "value" : "Luxury Lifestyle Awards"}
+            ]
+        }
+        
+    }
+}

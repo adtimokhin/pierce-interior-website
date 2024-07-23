@@ -1,0 +1,24 @@
+.font-outline{
+
+    --starter-height: 0%;
+    // 20% seems to be the final value that we should animate for
+    // Probably due to the line height
+
+    &::before{
+        content: attr(data-text);
+        position: absolute;
+        z-index: 1;
+        color: #000;
+        pointer-events: none;
+    
+        overflow: hidden;
+        height: var(--starter-height);
+    
+        // transition: 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) height;
+    }
+    
+    // &:hover::before {
+    //     height: 100%;
+    //     transition: 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) height;
+    // }
+}

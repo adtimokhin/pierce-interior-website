@@ -1,0 +1,132 @@
+---
+import ProjectPageLayout from "../../layouts/ProjectPageLayout.astro";
+import "../../styles/next-project.scss"
+import "../../styles/image-gallery.css"
+---
+
+<ProjectPageLayout title="Pierce Interirios | Skyline Serenity | March 2022">
+
+    <div class="fixed h-[300px] w-[200px]" id="image-gallery-cursor">
+        <div id="image-gallery" data-dest-folder=" /images/test/previews/hamptons-heaven"/>
+    </div>
+
+    <!-- TODO: Finish up later -->
+    <section class="w-full h-screen px-5">
+        <div class="w-full grid grid-cols-6 gap-x-5">
+            <h1 class="header col-span-3 ">Skyline Serenity</h1>
+            <p class="col-span-3 body">A modern, minimalist penthouse with panoramic views of the New York City skyline. A serene, luxurious living space that offers a respite from the bustling city below while incorporating state-of-the-art technology and sustainable design elements.</p>
+        </div>
+    </section>
+
+    <section class="w-full h-fit grid grid-cols-6 gap-x-5 px-5">
+        <div class="col-span-3 flex flex-col justify-center space-y-7">
+            <div class="space-y-3">
+                <p class="body">Size</p>
+                <p class="small-body">4,500 SQRFT</p>
+            </div>
+            <div class="space-y-3">
+                <p class="body">Budget</p>
+                <p class="small-body">$ 2.5 million</p>
+            </div>
+            <div class="space-y-3">
+                <p class="body">Awards</p>
+                <p class="small-body">Luxury Lifestyle Awards</p>
+            </div>
+        </div>
+        <div class="col-span-3 body space-y-8">
+            <p>
+                The penthouse features an open floor plan with floor-to-ceiling windows that maximize natural light and provide unobstructed views of the cityscape. The architecture emphasizes clean lines, geometric shapes, and a seamless flow between indoor and outdoor spaces. Key architectural features include a cantilevered balcony, a glass-enclosed rooftop garden, and a central atrium with a statement staircase.
+            </p>
+
+            <p>
+                Overall, Skyline Serenity is a testament to our ability to create luxurious, modern living spaces that are both functional and aesthetically pleasing, providing a serene escape in the heart of a bustling city.
+            </p>
+        </div>
+    </section>
+
+    <!-- TODO: Add the parallax effect -->
+    <section class="px-5 w-full grid grid-cols-6 gap-x-5">
+        <img class="col-span-3 w-full aspect-square" src="/images/test/image_1.png">
+        <img class="col-span-3 w-full aspect-square" src="/images/test/image_2.png">
+    </section>
+
+    <section class="w-full px-5 grid grid-cols-6 gap-x-5"> 
+        <p class="large-body col-start-2 col-span-4">Skyline Serenity showcases a modern, minimalist design with an open floor plan and floor-to-ceiling windows that offer panoramic views of the New York City skyline, seamlessly blending indoor and outdoor living spaces.</p>
+    </section>
+
+    <section class="px-5 w-full">
+        <img class="w-full h-[80vh] object-fill" src="/images/test/image_3.png">
+    </section>
+
+    <section class="w-full px-5 grid grid-cols-6 gap-x-5"> 
+        <p class="large-body col-start-2 col-span-4">The penthouse features state-of-the-art smart home systems, including automated lighting, climate control, and smart mirrors, enhancing convenience and energy efficiency while maintaining a luxurious ambiance.</p>
+    </section>
+
+    <section class="px-5 w-full">
+        <img class="w-full h-[80vh] object-fill" src="/images/test/image_4.png">
+    </section>
+
+    <!-- TODO: Add the section with the draggable gallery -->
+
+    <section class="w-full px-5">
+        <div class="grid grid-cols-6 gap-x-5">
+            <img class="col-span-3 w-full aspect-square" src="/images/test/image_1.png">
+            <div class="col-span-3 flex flex-col justify-end space-y-7 body">
+                <p>In the Skyline Serenity project, we meticulously selected high-end materials such as marble and walnut to create a refined, luxurious atmosphere. Each piece of custom-built furniture was carefully designed and placed to ensure a harmonious flow and unobstructed views throughout the penthouse. </p>
+                <p>Special attention was paid to the integration of state-of-the-art smart home systems, ensuring both functionality and elegance.</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-6 gap-x-5">
+            <div class="col-span-3 flex flex-col justify-start space-y-7 body">
+                <p>The design of Skyline Serenity included a cantilevered balcony and a glass-enclosed rooftop garden, both engineered to blend seamlessly with the modern aesthetic. We focused on creating a serene living environment by incorporating automated blackout blinds, soundproofing, and bespoke wardrobes in each bedroom. </p>
+                <p>Every detail, from the heated bathroom floors to the rainwater harvesting system in the rooftop garden, was chosen to enhance comfort and sustainability.</p>
+            </div>
+            <img class="col-span-3 w-full aspect-square" src="/images/test/image_2.png">
+        </div>
+    </section>
+
+    <section class="w-full">
+        <img class="w-full h-[80vh] object-fill" src="/images/test/image_4.png">
+    </section>
+
+    <section class="w-full h-[60vh] bg-company flex flex-col justify-center items-center" id="next-project-section">
+        <div class="w-[70%] h-[40%] flex flex-col justify-center items-center">
+            <p class="text-background text-[8.5rem] w-full text-center font-outline" data-text="NEXT PROJECT">NEXT PROJECT</p>
+            <p class="body text-background">Hamptons Haven</p>
+            <a class="w-[70%] h-[40%] absolute grid grid-cols-5 next-page-container gallery-cursor-area" href="#">
+                <span class="hovarable-zone"></span>
+                <span class="hovarable-zone"></span>
+                <span class="hovarable-zone"></span>
+                <span class="hovarable-zone"></span>
+                <span class="hovarable-zone"></span>
+            </a>
+        </div>
+    </section>
+
+</ProjectPageLayout>
+
+<style>
+  /* .font-outline::before{
+    content: attr(data-text);
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    pointer-events: none;
+
+    overflow: hidden;
+    height: 0;
+
+    transition: 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) height;
+  }
+
+    .font-outline:hover::before {
+        height: 100%;
+        transition: 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) height;
+    } */
+</style>
+
+<script>
+    import "../../scripts/next-project-animation.js"
+    import "../../scripts/image-slider.js"
+</script>

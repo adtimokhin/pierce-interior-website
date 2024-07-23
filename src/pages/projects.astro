@@ -1,39 +1,52 @@
 ---
 import ListItem from "../components/astro/ListItem.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
+import "../styles/image-gallery.css"
 ---
 
 <BasicLayout title="Pierce Interirios | Projects">
-	<main class="w-full min-h-screen bg-text text-background/60">
-        <ul>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Skyline Serenity" location="New York City, USA" date="March 2022"/>
-            </li>
-            <div class="w-full bg-background/60 h-[1px]"/>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Hamptons Haven" location="The Hamptons, USA" date="June 2021"/>
-            </li>
-            <div class="w-full bg-background/60 h-[1px]"/>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Ocean Breeze Villa" location="Malibu, USA" date="September 2021"/>
-            </li>
-            <div class="w-full bg-background/60 h-[1px]"/>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Parisian Elegance" location="Paris, France" date="December 2020"/>
-            </li>
-            <div class="w-full bg-background/60 h-[1px]"/>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Urban Oasis" location="Dubai, UAE" date="February 2021"/>
-            </li>
-            <div class="w-full bg-background/60 h-[1px]"/>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Loft Luxe" location="London, UK" date="August 2020"/>
-            </li>
-            <div class="w-full bg-background/60 h-[1px]"/>
-            <li>
-                <ListItem link="/projects/skyline-serenity" title="Seaside Sanctuary" location="Miami, USA" date="April 2020"/>
-            </li>
-        </ul>
-    </main>
+    <div class="gallery-cursor-area">
+        <div class="fixed h-[300px] w-[200px]" id="image-gallery-cursor">
+            <div id="image-gallery" data-dest-folder="/images/test/gallery"/>
+        </div>
+
+        <main class="w-full min-h-screen bg-text text-background/60 flex flex-1 justify-center items-center">
+            <ul class="w-full">
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Skyline Serenity" location="New York City, USA" date="March 2022"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Hamptons Haven" location="The Hamptons, USA" date="June 2021"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Ocean Breeze Villa" location="Malibu, USA" date="September 2021"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Parisian Elegance" location="Paris, France" date="December 2020"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Urban Oasis" location="Dubai, UAE" date="February 2021"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Loft Luxe" location="London, UK" date="August 2020"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+                <li>
+                    <ListItem link="/projects/skyline-serenity" title="Seaside Sanctuary" location="Miami, USA" date="April 2020"/>
+                </li>
+                <div class="w-full bg-background/60 h-[1px]"/>
+            </ul>
+        </main>
+    </div>
+
 </BasicLayout>
 
+<script>
+    import "../scripts/image-slider"
+</script>
