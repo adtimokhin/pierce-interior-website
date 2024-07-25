@@ -11,8 +11,502 @@
                 {"title" : "Size" , "value" : "4,500 SQ FT"},
                 {"title" : "Budget" , "value" : "$ 2.5 million"},
                 {"title" : "Awards" , "value" : "Luxury Lifestyle Awards"}
+            ],
+            "large": [
+                "The penthouse features an open floor plan with floor-to-ceiling windows that maximize natural light and provide unobstructed views of the cityscape. The architecture emphasizes clean lines, geometric shapes, and a seamless flow between indoor and outdoor spaces. Key architectural features include a cantilevered balcony, a glass-enclosed rooftop garden, and a central atrium with a statement staircase.",
+                "Overall, Skyline Serenity is a testament to our ability to create luxurious, modern living spaces that are both functional and aesthetically pleasing, providing a serene escape in the heart of a bustling city."
             ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Skyline Serenity showcases a modern, minimalist design with an open floor plan and floor-to-ceiling windows that offer panoramic views of the New York City skyline, seamlessly blending indoor and outdoor living spaces."
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The penthouse features state-of-the-art smart home systems, including automated lighting, climate control, and smart mirrors, enhancing convenience and energy efficiency while maintaining a luxurious ambiance."
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "In the Skyline Serenity project, we meticulously selected high-end materials such as marble and walnut to create a refined, luxurious atmosphere. Each piece of custom-built furniture was carefully designed and placed to ensure a harmonious flow and unobstructed views throughout the penthouse.",    
+                    "text2": "Special attention was paid to the integration of state-of-the-art smart home systems, ensuring both functionality and elegance."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "The design of Skyline Serenity included a cantilevered balcony and a glass-enclosed rooftop garden, both engineered to blend seamlessly with the modern aesthetic. We focused on creating a serene living environment by incorporating automated blackout blinds, soundproofing, and bespoke wardrobes in each bedroom.",    
+                    "text2": "Every detail, from the heated bathroom floors to the rainwater harvesting system in the rooftop garden, was chosen to enhance comfort and sustainability."
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Hamptons Haven",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "hamptons-heaven"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Skyline Serenity | March 2022"
         }
-        
+    },
+
+    "hamptons-heaven": {
+        "hero":{
+            "title": "Hamptons Haven",
+            "location": "The Hamptons, USA",
+            "date" : "June 2021",
+            "description" : "Hamptons Haven is a grand estate featuring classic, elegant decor and expansive grounds, designed to exude timeless sophistication. The project includes intricate architectural details, custom-designed interiors, and bespoke decor, creating a luxurious retreat."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "10,000 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 5 million"},
+                {"title" : "Awards" , "value" : "Luxury Lifestyle Awards"},
+                {"title" : "Sustainability" , "value" : "LEED Silver Certification"}
+            ],
+            "large": [
+                "Hamptons Haven is a sprawling 10,000-square-foot grand estate located in the Hamptons, designed to epitomize timeless elegance and sophistication. With a project budget of $5 million, the estate features intricate architectural details and custom-designed interiors that exude luxury. The project has been recognized with the Luxury Lifestyle Awards for Best Residential Interior Design, highlighting our commitment to excellence.",
+                "Additionally, Hamptons Haven has achieved LEED Silver Certification, incorporating energy-efficient systems and sustainable materials to create an environmentally friendly and luxurious retreat. This blend of classic design and modern sustainability sets Hamptons Haven apart as a premier example of high-end residential design."
+            ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Hamptons Haven features exquisite architectural details such as coffered ceilings, crown moldings, and wainscoting, all crafted from high-quality hardwoods. "
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The project incorporates advanced energy-efficient systems, including geothermal heating and cooling, and utilizes sustainable materials such as reclaimed wood for flooring and low-VOC paints. "
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "In the Hamptons Haven project, we meticulously crafted the coffered ceilings, crown moldings, and wainscoting from high-quality hardwoods to enhance the classic sophistication of the space. ",    
+                    "text2": "Custom marble flooring was selected for its elegance and durability, while bespoke chandeliers were designed to provide a focal point in each room. Each element was chosen to contribute to the estate's luxurious and timeless ambiance."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "We paid close attention to sustainability in the Hamptons Haven project by integrating advanced energy-efficient systems, such as geothermal heating and cooling. Reclaimed wood was used for flooring, adding character and reducing environmental impact.",    
+                    "text2": "Low-VOC paints were selected to improve indoor air quality, ensuring that the estate not only exudes luxury but also meets high standards of environmental responsibility."
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Ocean Breeze Villa",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "ocean-breeze-villa"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Hamptons Haven | June 2021"
+        }
+    },
+
+    "ocean-breeze-villa": {
+        "hero":{
+            "title": "Ocean Breeze Villa",
+            "location": "Malibu, USA",
+            "date" : "September 2021",
+            "description" : "Ocean Breeze Villa is a light, airy beachfront villa in Malibu featuring open-plan living spaces and seamless indoor-outdoor flow. Designed with natural materials and a soothing color palette, it offers a tranquil and luxurious retreat by the ocean."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "6,000 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 3 million"},
+                {"title" : "Awards" , "value" : "American Architecture Award"}
+            ],
+            "large": [
+                "Ocean Breeze Villa is a 6,000-square-foot beachfront retreat in Malibu, designed to offer a serene and luxurious living experience. With a project budget of $3 million, the villa features open-plan living spaces that seamlessly blend indoor and outdoor areas, creating a harmonious flow throughout the home. The villa includes 5 bedrooms and 4 bathrooms, all designed with high-quality natural materials such as reclaimed wood and stone to enhance its connection to the coastal surroundings.",
+                "Additionally, the project has been certified by the Green Building Initiative for its sustainable features, including solar panels and eco-friendly building materials. Ocean Breeze Villa provides a tranquil, airy atmosphere with a soothing color palette, making it the perfect luxurious oceanfront escape."
+            ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Ocean Breeze Villa features open-plan living spaces that effortlessly blend indoor and outdoor areas, creating a harmonious flow and maximizing the stunning beachfront views."
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The villa incorporates eco-friendly building materials and solar panels, earning certification from the Green Building Initiative, demonstrating that luxury living can be both beautiful and environmentally responsible. This villa is an example of a sustainable luxury."
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "In developing Ocean Breeze Villa, we focused on creating a seamless indoor-outdoor living experience by strategically placing large, floor-to-ceiling windows that capture sunlight throughout the day.",
+                    "text2": "The villa features a custom-designed infinity pool that overlooks the ocean, providing a visual connection to the water. We also designed bespoke furniture pieces that blend with the natural materials and color palette of the villa. The addition of a private pier for yacht access."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "The villa includes luxurious amenities such as a private infinity pool and a custom-designed outdoor kitchen, perfect for entertaining. Special attention was given to the custom cutlery and tableware, adding a touch of elegance to every dining experience.",
+                    "text2": "Additionally, the villa's sustainable design elements, including solar panels and eco-friendly materials, highlight our commitment to environmentally responsible luxury."
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Parisian Elegance",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "parisian-elegance"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Ocean Breeze Villa | June 2021"
+        }
+    },
+
+    "parisian-elegance": {
+        "hero":{
+            "title": "Parisian Elegance",
+            "location": "Paris, France",
+            "date" : "December 2020",
+            "description" : "Parisian Elegance is a beautifully restored flat in the heart of Paris, combining classic French architecture with modern amenities. The project features carefully preserved original details alongside contemporary finishes, creating a harmonious blend of old-world charm and modern luxury."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "2,500 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 1.8 million"}
+            ],
+            "large": [
+                "Parisian Elegance is a meticulously restored 2,500-square-foot flat in the heart of Paris, seamlessly blending modern style with the charm of old Paris. With a budget of $1.8 million, the project preserved original 19th-century features, such as intricate moldings and herringbone parquet flooring, while incorporating contemporary finishes and smart home technology. The flat's high ceilings and expansive windows offer an airy, light-filled environment, reminiscent of its historical grandeur.",
+                "Previously owned by a renowned French artist, the flat has been a witness to many cultural and historical events, including the Belle Époque and the Liberation of Paris. The restoration carefully honored the flat's rich history, maintaining its architectural integrity while modernizing its amenities for today's lifestyle. The project also achieved a 30% reduction in energy consumption, highlighting a commitment to sustainable luxury."
+            ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Parisian Elegance masterfully integrates contemporary finishes and smart home technology with original 19th-century features, such as intricate moldings and herringbone parquet flooring, creating a harmonious blend of modern luxury and historic charm."
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The meticulous restoration of this flat honors its rich history, maintaining its architectural integrity and preserving the legacy of its previous renowned French artist owner."
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "In the Parisian Elegance project, we paid close attention to preserving the flat's original 19th-century features, such as the intricate moldings and herringbone parquet flooring, ensuring they harmoniously blend with modern finishes.",
+                    "text2": "We meticulously restored the façade to its historical grandeur, complementing the contemporary interiors with large, floor-to-ceiling windows that offer an abundance of natural light. The seamless integration of these elements creates a cohesive design that respects the building's heritage while providing modern luxury."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "The restoration of Parisian Elegance focused on maintaining the flat’s historical character by preserving its high ceilings and original architectural details, while enhancing the interiors with sleek, modern design elements. We ensured that the flat’s contemporary updates, including smart home technology and energy-efficient systems, seamlessly blend with the restored façade, creating a unified aesthetic.",
+                    "text2": "This careful attention to detail highlights the studio’s commitment to honoring the past while embracing the future, resulting in a space that exudes both historical charm and modern sophistication."
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Urban Oasis",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "urban-oasis"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Parisian Elegance | December 2020"
+        }
+    },
+
+    "urban-oasis": {
+        "hero":{
+            "title": "Urban Oasis",
+            "location": "Dubai, UAE",
+            "date" : "February 2021",
+            "description" : "Urban Oasis is a high-rise luxury apartment in Dubai featuring cutting-edge design and panoramic city views. The project incorporates opulent materials and state-of-the-art smart home technology, creating a sophisticated and modern living space."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "3,500 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 2.2 million"},
+                {"title" : "Awards" , "value" : "International Property Award"}
+            ],
+            "large": [
+                "Urban Oasis is a stunning example of modern luxury, located in one of Dubai's most prestigious high-rise buildings. The apartment features expansive open-plan living areas with floor-to-ceiling windows, providing breathtaking views of the city skyline. Custom-designed elements, such as a floating staircase and a sleek, minimalist kitchen, enhance the apartment's contemporary aesthetic. The master suite includes a spacious walk-in closet and a spa-inspired bathroom with a freestanding tub and rain shower.",
+                "High-end finishes, including marble countertops and polished concrete floors, add a touch of elegance throughout the space. The apartment also boasts a private terrace with an infinity pool, offering an exclusive outdoor retreat in the heart of the city."
+            ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Urban Oasis features floor-to-ceiling windows throughout the apartment, providing stunning panoramic views of Dubai's iconic skyline. These expansive windows not only enhance the living space with natural light but also create a seamless connection between the interior and the breathtaking urban landscape."
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The apartment is adorned with high-end finishes, such as marble countertops and polished concrete floors, which add a touch of elegance and sophistication. Custom-designed elements, including a floating staircase and a sleek, minimalist kitchen, demonstrate the studio's commitment to creating unique, contemporary living spaces that cater to the discerning tastes of high-end clients."
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "In the Urban Oasis project, we focused on integrating custom-designed elements to enhance the apartment’s contemporary aesthetic. The floating staircase, a striking architectural feature, was meticulously crafted to provide both functionality and visual appeal.",
+                    "text2": "The sleek, minimalist kitchen was designed with top-of-the-line appliances and custom cabinetry, ensuring a seamless blend of style and efficiency. Every aspect of the living space, from the marble countertops to the polished concrete floors, was carefully selected to reflect a modern, luxurious ambiance."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "The design of Urban Oasis also emphasizes the importance of high-end finishes and luxurious amenities. The master suite includes a spacious walk-in closet and a spa-inspired bathroom featuring a freestanding tub and a rain shower, providing a serene retreat within the apartment.",
+                    "text2": "The private terrace, complete with an infinity pool, offers an exclusive outdoor space for relaxation and entertainment. These details, combined with the expansive open-plan living areas and panoramic city views, create a sophisticated and opulent living environment in the heart of Dubai."
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Loft Luxe",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "loft-luxe"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Urban Oasis | February 2021"
+        }
+    },
+
+    "loft-luxe": {
+        "hero":{
+            "title": "Loft Luxe",
+            "location": "London, UK",
+            "date" : "August 2020",
+            "description" : "Loft Luxe is a contemporary loft located in the heart of London, designed to combine industrial chic with modern luxury. This 3,000-square-foot space features soaring 14-foot ceilings and expansive open-plan living areas that maximize natural light."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "3,000 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 2 million"},
+                {"title" : "Awards" , "value" : "European Property Award"}
+            ],
+            "large": [
+                "The living area showcases a blend of modern and vintage furniture, with bespoke pieces crafted to complement the industrial aesthetic. The kitchen is equipped with state-of-the-art appliances and features a sleek, minimalist design with stainless steel countertops and custom cabinetry. The master suite includes a walk-in closet and an en-suite bathroom with a freestanding tub and rainfall shower, offering a private sanctuary within the loft.",
+                "A standout feature of Loft Luxe is its mezzanine level, which serves as a versatile space for an office or additional lounge area. The loft also boasts an integrated smart home system, controlling lighting, climate, and security, enhancing both convenience and efficiency."
+            ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Loft Luxe expertly combines exposed brick walls, steel beams, and large industrial-style windows with high-end finishes, creating a unique blend of industrial charm and modern luxury."
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The mezzanine level and expansive open-plan living areas offer versatile spaces for both living and working, complemented by a private rooftop terrace with panoramic views of the London skyline."
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "",
+                    "text2": "In Loft Luxe, we meticulously preserved the building’s industrial character by retaining elements such as exposed brick walls and steel beams, while introducing high-end finishes and custom-built furniture to enhance the modern, luxurious feel."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "The integration of a smart home system allows for seamless control of lighting, climate, and security, providing both convenience and efficiency. The private rooftop terrace, designed for entertaining and relaxation, adds an exclusive outdoor space to this sophisticated urban loft.",
+                    "text2": ""
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Seaside Sanctuary",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "seaside-sanctuary"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Loft Luxe | August 2020"
+        }
+    },
+
+    "seaside-sanctuary": {
+        "hero":{
+            "title": "Seaside Sanctuary",
+            "location": "Miami, USA",
+            "date" : "April 2020",
+            "description" : "Seaside Sanctuary is a luxurious beachfront retreat in Miami designed to offer an elegant and serene living experience. This 5,500-square-foot property blends contemporary design with coastal charm, providing an idyllic setting for relaxation and entertaining."
+        },
+        "stats" : {
+            "small": [
+                {"title" : "Size" , "value" : "5,500 SQ FT"},
+                {"title" : "Budget" , "value" : "$ 3.5 million"},
+                {"title" : "Awards" , "value" : "Best Luxury Residential Interior"}
+            ],
+            "large": [
+                "The interior of Seaside Sanctuary is characterized by a soothing color palette inspired by the coastal environment, with high-end materials such as travertine, teak wood, and coral stone. The living area includes custom-built furniture designed to complement the airy, relaxed atmosphere. The gourmet kitchen is equipped with top-of-the-line appliances, quartz countertops, and custom cabinetry, making it both functional and stylish.",
+                "Seaside Sanctuary boasts extensive outdoor living spaces, including a large terrace with an infinity pool, a built-in outdoor kitchen, and multiple lounge areas. A private boardwalk leads directly to the beach, providing exclusive access to the ocean. The property also includes a guest house, offering additional accommodation for visitors or staff."
+            ]
+        },
+        "twoImages": 
+        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        "strength1" : 
+        {
+            "text": "Seaside Sanctuary features expansive outdoor living areas, including a terrace with an infinity pool and outdoor kitchen, and a private boardwalk to the beach, creating a seamless connection between the indoor and outdoor spaces."
+        },
+        "largeImage1" : 
+        {
+            "url": "/images/test/image_3.png"
+        },
+        "strength2" : 
+        {
+            "text": "The project incorporates high-end materials such as travertine, teak wood, and coral stone, combined with a soothing coastal-inspired color palette, creating a luxurious and serene beachfront retreat."
+        },
+        "largeImage2" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "details": 
+        [
+            {
+                "image" : {
+                    "url": "/images/test/image_1.png"
+                },
+                "texts" : {
+                    "text1": "",
+                    "text2": "In the Seaside Sanctuary project, we meticulously selected materials that reflect the coastal environment, such as travertine and coral stone, and designed custom-built furniture to enhance the relaxed, elegant ambiance. The integration of floor-to-ceiling windows maximizes natural light and offers stunning ocean views from every room."
+                }
+
+            },
+            {
+                "image" : {
+                    "url": "/images/test/image_2.png"
+                },
+                "texts" : {
+                    "text1": "The outdoor living spaces were carefully designed to provide both functionality and luxury, with features such as an infinity pool, a built-in outdoor kitchen, and multiple lounge areas. The private boardwalk leading to the beach ensures exclusive ocean acceAss, while the guest house offers additional accommodation, highlighting the project’s attention to detail and commitment to creating a perfect coastal retreat.",
+                    "text2": ""
+                }
+
+            }
+        ],
+        "fullscreenImage" : 
+        {
+            "url": "/images/test/image_4.png"
+        },
+        "nextProject": {
+            "nextProjectName": "Skyline Serenity",
+            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "nextSlug" : "skyline-serenity"
+        },
+        "seo":{
+            "pageTitle" : "Pierce Interirios | Seaside Sanctuary | April 2020"
+        }
     }
 }
