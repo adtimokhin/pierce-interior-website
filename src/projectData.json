@@ -4,7 +4,11 @@
             "title": "Skyline Serenity",
             "location": "New York City, USA",
             "date" : "March 2022",
-            "description" : "A modern, minimalist penthouse with panoramic views of the New York City skyline. A serene, luxurious living space that offers a respite from the bustling city below while incorporating state-of-the-art technology and sustainable design elements."
+            "description" : "A modern, minimalist penthouse with panoramic views of the New York City skyline. A serene, luxurious living space that offers a respite from the bustling city below while incorporating state-of-the-art technology and sustainable design elements.",
+            "img": {
+                "url": "/src/assets/projects/skyline-serenity/11.png",
+                "alt": "a view of a corridor in a skyscraper"
+            }
         },
         "stats" : {
             "small": [
@@ -18,14 +22,17 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+
+        [{"url": "/src/assets/projects/skyline-serenity/8.png", "alt": "view from the shower room"},
+        {"url" : "/src/assets/projects/skyline-serenity/12.png", "alt": "office room"} ],
         "strength1" : 
         {
             "text": "Skyline Serenity showcases a modern, minimalist design with an open floor plan and floor-to-ceiling windows that offer panoramic views of the New York City skyline, seamlessly blending indoor and outdoor living spaces."
         },
         "largeImage1" : 
         {
-            "url": "/images/test/image_3.png"
+            "url": "/src/assets/projects/skyline-serenity/10.png", 
+            "alt": "A table with white chairs"
         },
         "strength2" : 
         {
@@ -33,13 +40,15 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/skyline-serenity/7.png", 
+            "alt": "A modern bedroom with a black-mat finish"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/skyline-serenity/3.png", 
+                    "alt": "A sofa leg"
                 },
                 "texts" : {
                     "text1": "In the Skyline Serenity project, we meticulously selected high-end materials such as marble and walnut to create a refined, luxurious atmosphere. Each piece of custom-built furniture was carefully designed and placed to ensure a harmonious flow and unobstructed views throughout the penthouse.",    
@@ -49,7 +58,8 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                     "url": "/src/assets/projects/skyline-serenity/4.png", 
+                    "alt": "A shandaleer made out of black rings"
                 },
                 "texts" : {
                     "text1": "The design of Skyline Serenity included a cantilevered balcony and a glass-enclosed rooftop garden, both engineered to blend seamlessly with the modern aesthetic. We focused on creating a serene living environment by incorporating automated blackout blinds, soundproofing, and bespoke wardrobes in each bedroom.",    
@@ -60,7 +70,8 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/skyline-serenity/14.png", 
+            "alt": "A corner with a sofa and a window walls"
         },
         "nextProject": {
             "nextProjectName": "Hamptons Haven",
@@ -77,7 +88,11 @@
             "title": "Hamptons Haven",
             "location": "The Hamptons, USA",
             "date" : "June 2021",
-            "description" : "Hamptons Haven is a grand estate featuring classic, elegant decor and expansive grounds, designed to exude timeless sophistication. The project includes intricate architectural details, custom-designed interiors, and bespoke decor, creating a luxurious retreat."
+            "description" : "Hamptons Haven is a grand estate featuring classic, elegant decor and expansive grounds, designed to exude timeless sophistication. The project includes intricate architectural details, custom-designed interiors, and bespoke decor, creating a luxurious retreat.",
+            "img": {
+                "url": "/src/assets/projects/hamptons-heaven/2.png",
+                "alt": "a bathtub very tranquil"
+            }
         },
         "stats" : {
             "small": [
@@ -92,14 +107,15 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        [{"url": "/src/assets/projects/hamptons-heaven/5.png", "alt": "a sofa with red and pink pillows"},{"url" : "/src/assets/projects/hamptons-heaven/10.png", "alt": "a sofa with a table next to it"} ],
         "strength1" : 
         {
             "text": "Hamptons Haven features exquisite architectural details such as coffered ceilings, crown moldings, and wainscoting, all crafted from high-quality hardwoods. "
         },
         "largeImage1" : 
         {
-            "url": "/images/test/image_3.png"
+            "url": "/src/assets/projects/hamptons-heaven/11.png",
+            "alt": "a pink dining room with pink chairs and a pink rug"
         },
         "strength2" : 
         {
@@ -107,13 +123,15 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/hamptons-heaven/13.png",
+            "alt" : "an office room with all the essentials"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/hamptons-heaven/6.png",
+                    "alt": "a wardrobe with many shirts"
                 },
                 "texts" : {
                     "text1": "In the Hamptons Haven project, we meticulously crafted the coffered ceilings, crown moldings, and wainscoting from high-quality hardwoods to enhance the classic sophistication of the space. ",    
@@ -123,7 +141,8 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                    "url": "/src/assets/projects/hamptons-heaven/7.png",
+                    "alt": "a reading corner with a chair and a bookshelf"
                 },
                 "texts" : {
                     "text1": "We paid close attention to sustainability in the Hamptons Haven project by integrating advanced energy-efficient systems, such as geothermal heating and cooling. Reclaimed wood was used for flooring, adding character and reducing environmental impact.",    
@@ -134,7 +153,8 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/hamptons-heaven/8.png",
+            "alt": "a sofa"
         },
         "nextProject": {
             "nextProjectName": "Ocean Breeze Villa",
@@ -151,7 +171,11 @@
             "title": "Ocean Breeze Villa",
             "location": "Malibu, USA",
             "date" : "September 2021",
-            "description" : "Ocean Breeze Villa is a light, airy beachfront villa in Malibu featuring open-plan living spaces and seamless indoor-outdoor flow. Designed with natural materials and a soothing color palette, it offers a tranquil and luxurious retreat by the ocean."
+            "description" : "Ocean Breeze Villa is a light, airy beachfront villa in Malibu featuring open-plan living spaces and seamless indoor-outdoor flow. Designed with natural materials and a soothing color palette, it offers a tranquil and luxurious retreat by the ocean.",
+            "img": {
+                "url": "/src/assets/projects/ocean-breeze-villa/11.png",
+                "alt": "a from an infinity pool"
+            }
         },
         "stats" : {
             "small": [
@@ -165,14 +189,14 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        [{"url": "/src/assets/projects/ocean-breeze-villa/0.png", "alt": "a green bathroom"},{"url" : "/src/assets/projects/ocean-breeze-villa/7.png", "alt": "a number of blue soft chairs around a wooden table"} ],
         "strength1" : 
         {
             "text": "Ocean Breeze Villa features open-plan living spaces that effortlessly blend indoor and outdoor areas, creating a harmonious flow and maximizing the stunning beachfront views."
         },
         "largeImage1" : 
         {
-            "url": "/images/test/image_3.png"
+            "url": "/src/assets/projects/ocean-breeze-villa/10.png", "alt": "a kitchen counter"
         },
         "strength2" : 
         {
@@ -180,13 +204,13 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/ocean-breeze-villa/8.png", "alt": "a sofa with yellow pillows"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/ocean-breeze-villa/2.png", "alt": "a coffe table with a blue flower"
                 },
                 "texts" : {
                     "text1": "In developing Ocean Breeze Villa, we focused on creating a seamless indoor-outdoor living experience by strategically placing large, floor-to-ceiling windows that capture sunlight throughout the day.",
@@ -196,7 +220,7 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                    "url": "/src/assets/projects/ocean-breeze-villa/9.png", "alt": "a sofa with yellow pillows"
                 },
                 "texts" : {
                     "text1": "The villa includes luxurious amenities such as a private infinity pool and a custom-designed outdoor kitchen, perfect for entertaining. Special attention was given to the custom cutlery and tableware, adding a touch of elegance to every dining experience.",
@@ -207,7 +231,7 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/ocean-breeze-villa/13.png", "alt": "an open space guest area with a view on an ocean"
         },
         "nextProject": {
             "nextProjectName": "Parisian Elegance",
@@ -224,7 +248,11 @@
             "title": "Parisian Elegance",
             "location": "Paris, France",
             "date" : "December 2020",
-            "description" : "Parisian Elegance is a beautifully restored flat in the heart of Paris, combining classic French architecture with modern amenities. The project features carefully preserved original details alongside contemporary finishes, creating a harmonious blend of old-world charm and modern luxury."
+            "description" : "Parisian Elegance is a beautifully restored flat in the heart of Paris, combining classic French architecture with modern amenities. The project features carefully preserved original details alongside contemporary finishes, creating a harmonious blend of old-world charm and modern luxury.",
+            "img": {
+                "url": "/src/assets/projects/parisian-elegance/12.png",
+                "alt": "an office table with a decorative chandelier"
+            }
         },
         "stats" : {
             "small": [
@@ -237,14 +265,20 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        [{  "url": "/src/assets/projects/parisian-elegance/1.png",
+            "alt": "a table with a golden lamp"
+        },
+            {"url": "/src/assets/projects/parisian-elegance/13.png",
+            "alt": "a glassware on a table"
+        } ],
         "strength1" : 
         {
             "text": "Parisian Elegance masterfully integrates contemporary finishes and smart home technology with original 19th-century features, such as intricate moldings and herringbone parquet flooring, creating a harmonious blend of modern luxury and historic charm."
         },
         "largeImage1" : 
         {
-            "url": "/images/test/image_3.png"
+            "url": "/src/assets/projects/parisian-elegance/14.png",
+            "alt": "two white vases on a counter"
         },
         "strength2" : 
         {
@@ -252,13 +286,15 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/parisian-elegance/11.png",
+            "alt": "living room with a blue sofa"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/parisian-elegance/5.png",
+                    "alt": "a ceiling with a stucco on it"
                 },
                 "texts" : {
                     "text1": "In the Parisian Elegance project, we paid close attention to preserving the flat's original 19th-century features, such as the intricate moldings and herringbone parquet flooring, ensuring they harmoniously blend with modern finishes.",
@@ -268,7 +304,8 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                    "url": "/src/assets/projects/parisian-elegance/4.png",
+                    "alt": "a kitchen area"
                 },
                 "texts" : {
                     "text1": "The restoration of Parisian Elegance focused on maintaining the flat’s historical character by preserving its high ceilings and original architectural details, while enhancing the interiors with sleek, modern design elements. We ensured that the flat’s contemporary updates, including smart home technology and energy-efficient systems, seamlessly blend with the restored façade, creating a unified aesthetic.",
@@ -279,7 +316,8 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/parisian-elegance/9.png",
+            "alt": "sofa area in the corner of the house next to windows"
         },
         "nextProject": {
             "nextProjectName": "Urban Oasis",
@@ -296,7 +334,11 @@
             "title": "Urban Oasis",
             "location": "Dubai, UAE",
             "date" : "February 2021",
-            "description" : "Urban Oasis is a high-rise luxury apartment in Dubai featuring cutting-edge design and panoramic city views. The project incorporates opulent materials and state-of-the-art smart home technology, creating a sophisticated and modern living space."
+            "description" : "Urban Oasis is a high-rise luxury apartment in Dubai featuring cutting-edge design and panoramic city views. The project incorporates opulent materials and state-of-the-art smart home technology, creating a sophisticated and modern living space.",
+            "img": {
+                "url": "/src/assets/projects/urban-oasis/9.png",
+                "alt": "a modern dining area"
+            }
         },
         "stats" : {
             "small": [
@@ -310,14 +352,17 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        [{  "url": "/src/assets/projects/urban-oasis/1.png",
+        "alt": "a mirror on a table"},{"url": "/src/assets/projects/urban-oasis/3.png",
+        "alt": "a decorative chandelier"} ],
         "strength1" : 
         {
             "text": "Urban Oasis features floor-to-ceiling windows throughout the apartment, providing stunning panoramic views of Dubai's iconic skyline. These expansive windows not only enhance the living space with natural light but also create a seamless connection between the interior and the breathtaking urban landscape."
         },
         "largeImage1" : 
         {
-            "url": "/images/test/image_3.png"
+            "url": "/src/assets/projects/urban-oasis/14.png",
+            "alt": "a bedroom with a secret room next to it"
         },
         "strength2" : 
         {
@@ -325,13 +370,15 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/urban-oasis/6.png",
+            "alt": "a secret room used for a modern art showroom"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/urban-oasis/4.png",
+                    "alt": "a sofa surrounded by leaves"
                 },
                 "texts" : {
                     "text1": "In the Urban Oasis project, we focused on integrating custom-designed elements to enhance the apartment’s contemporary aesthetic. The floating staircase, a striking architectural feature, was meticulously crafted to provide both functionality and visual appeal.",
@@ -341,7 +388,8 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                    "url": "/src/assets/projects/urban-oasis/0.png",
+                    "alt": "a reading corner"
                 },
                 "texts" : {
                     "text1": "The design of Urban Oasis also emphasizes the importance of high-end finishes and luxurious amenities. The master suite includes a spacious walk-in closet and a spa-inspired bathroom featuring a freestanding tub and a rain shower, providing a serene retreat within the apartment.",
@@ -352,7 +400,8 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/urban-oasis/10.png",
+            "alt": "an outdoor dinning area"
         },
         "nextProject": {
             "nextProjectName": "Loft Luxe",
@@ -369,7 +418,11 @@
             "title": "Loft Luxe",
             "location": "London, UK",
             "date" : "August 2020",
-            "description" : "Loft Luxe is a contemporary loft located in the heart of London, designed to combine industrial chic with modern luxury. This 3,000-square-foot space features soaring 14-foot ceilings and expansive open-plan living areas that maximize natural light."
+            "description" : "Loft Luxe is a contemporary loft located in the heart of London, designed to combine industrial chic with modern luxury. This 3,000-square-foot space features soaring 14-foot ceilings and expansive open-plan living areas that maximize natural light.",
+            "img": {
+                "url": "/src/assets/projects/loft-luxe/13.png",
+                "alt": "an office room"
+            }
         },
         "stats" : {
             "small": [
@@ -383,14 +436,17 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        [{                "url": "/src/assets/projects/loft-luxe/1.png",
+        "alt": "a bar counter"},{                "url": "/src/assets/projects/loft-luxe/3.png",
+        "alt": "a kitchen counter"} ],
         "strength1" : 
         {
             "text": "Loft Luxe expertly combines exposed brick walls, steel beams, and large industrial-style windows with high-end finishes, creating a unique blend of industrial charm and modern luxury."
         },
         "largeImage1" : 
         {
-            "url": "/images/test/image_3.png"
+            "url": "/src/assets/projects/loft-luxe/2.png",
+            "alt": "a sofa"
         },
         "strength2" : 
         {
@@ -398,13 +454,15 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/loft-luxe/8.png",
+            "alt": "a bedroom with many pillows"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/loft-luxe/6.png",
+                    "alt": "hanging from above lamps"
                 },
                 "texts" : {
                     "text1": "",
@@ -414,7 +472,8 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                    "url": "/src/assets/projects/loft-luxe/14.png",
+                    "alt": "a dining area with a modern design"
                 },
                 "texts" : {
                     "text1": "The integration of a smart home system allows for seamless control of lighting, climate, and security, providing both convenience and efficiency. The private rooftop terrace, designed for entertaining and relaxation, adds an exclusive outdoor space to this sophisticated urban loft.",
@@ -425,7 +484,8 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/loft-luxe/12.png",
+            "alt": "a reading area"
         },
         "nextProject": {
             "nextProjectName": "Seaside Sanctuary",
@@ -442,7 +502,11 @@
             "title": "Seaside Sanctuary",
             "location": "Miami, USA",
             "date" : "April 2020",
-            "description" : "Seaside Sanctuary is a luxurious beachfront retreat in Miami designed to offer an elegant and serene living experience. This 5,500-square-foot property blends contemporary design with coastal charm, providing an idyllic setting for relaxation and entertaining."
+            "description" : "Seaside Sanctuary is a luxurious beachfront retreat in Miami designed to offer an elegant and serene living experience. This 5,500-square-foot property blends contemporary design with coastal charm, providing an idyllic setting for relaxation and entertaining.",
+            "img": {
+                "url": "/src/assets/projects/seaside-sanctuary/5.png",
+                "alt": "a modern light dining area"
+            }
         },
         "stats" : {
             "small": [
@@ -456,14 +520,17 @@
             ]
         },
         "twoImages": 
-        [{"url": "/images/test/image_1.png"},{"url" : "/images/test/image_2.png"} ],
+        [{                "url": "/src/assets/projects/seaside-sanctuary/2.png",
+        "alt": "a bed next to windows"},{                "url": "/src/assets/projects/seaside-sanctuary/4.png",
+        "alt": "a coffee table"} ],
         "strength1" : 
         {
             "text": "Seaside Sanctuary features expansive outdoor living areas, including a terrace with an infinity pool and outdoor kitchen, and a private boardwalk to the beach, creating a seamless connection between the indoor and outdoor spaces."
         },
         "largeImage1" : 
-        {
-            "url": "/images/test/image_3.png"
+        {                
+            "url": "/src/assets/projects/seaside-sanctuary/6.png",
+            "alt": "a dining area with a modern design"
         },
         "strength2" : 
         {
@@ -471,13 +538,15 @@
         },
         "largeImage2" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/seaside-sanctuary/3.png",
+            "alt": "a kitchen area"
         },
         "details": 
         [
             {
                 "image" : {
-                    "url": "/images/test/image_1.png"
+                    "url": "/src/assets/projects/seaside-sanctuary/0.png",
+                    "alt": "a table and a chair"
                 },
                 "texts" : {
                     "text1": "",
@@ -487,7 +556,8 @@
             },
             {
                 "image" : {
-                    "url": "/images/test/image_2.png"
+                    "url": "/src/assets/projects/seaside-sanctuary/8.png",
+                    "alt": "a fireplace area"
                 },
                 "texts" : {
                     "text1": "The outdoor living spaces were carefully designed to provide both functionality and luxury, with features such as an infinity pool, a built-in outdoor kitchen, and multiple lounge areas. The private boardwalk leading to the beach ensures exclusive ocean acceAss, while the guest house offers additional accommodation, highlighting the project’s attention to detail and commitment to creating a perfect coastal retreat.",
@@ -498,7 +568,8 @@
         ],
         "fullscreenImage" : 
         {
-            "url": "/images/test/image_4.png"
+            "url": "/src/assets/projects/seaside-sanctuary/13.png",
+            "alt": "a guest area with sofas and chair with green accents"
         },
         "nextProject": {
             "nextProjectName": "Skyline Serenity",
