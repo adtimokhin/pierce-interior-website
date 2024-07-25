@@ -12,7 +12,7 @@ const cursor = new MouseFollower({
 
 const links = gsap.utils.toArray("a");
 links.forEach((link)=>{
-    link.addEventListener("mouseenter", ()=>{
+    link.addEventListener("mouseover", ()=>{
         cursor.setText('explore');
     });
     link.addEventListener("mouseleave", ()=>{

@@ -1,9 +1,0 @@
-DEV NOTE:
-
-Note that there are 4 separate folders for the different image sizes to be used on different devices
-During the begining of the development all of the images will be placed into the desktop folder
-
-In the future that will be updated
-
-Update:
-as it says on the Astro documentation (https://docs.astro.build/ru/guides/images/), "/public" should only store images that I want to be accessed through a link (like SEO, I guess), hence, I will move all images to the /src folder

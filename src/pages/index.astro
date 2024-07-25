@@ -2,16 +2,21 @@
 import Image from "astro/components/Image.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
 import LandingCard from "../components/astro/LandingCard.astro"
+import ProperEagerImage from "../components/astro/ProperEagerImage.astro"
+import ProperImage from "../components/astro/ProperImage.astro"
 
 ---
 
 <BasicLayout title="Pierce Interirios | Home">
-	<main>
+	<main class="gap-y-[12rem] flex flex-col">
 		<section class="w-full h-screen" id="hero">
 			<div class="w-full space-y-7">
 			<!-- Image goes to here -->
-			 <div class="w-full h-[50vh] bg-lime-300">
-			 </div>
+			<div class="w-full h-[50vh] relative overflow-hidden">
+				<div class="w-full h-[200%] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/3 parallax-scroll" id="hero-image-container">
+					<ProperEagerImage imagePath="/src/assets/landing/hero.png" altText="a blue room with a sofa" />
+				</div>
+			</div>
 			<div class="w-full grid desktop:grid-cols-6 tablet:grid-cols-6 desktop:px-5 tablet:px-5 gap-5">
 				<p class="desktop:col-span-2 tablet:col-span-2 body">
 					We renovate homes by closely collaborating with clients to bring 
@@ -53,8 +58,8 @@ import LandingCard from "../components/astro/LandingCard.astro"
 				<div class="w-full flex justify-start">
 					<Image src="/icons/square_logo_bw.svg" width={39} height={39} alt="logo"/>
 				</div>
-				<a href="/projects" class="col-span-2 col-start-3 border-text border-[1px] rounded-full body px-5 py-2"> All Projects</a>
-				<a href="#contact_form" class="col-span-2  bg-company text-background rounded-full body px-5 py-2"> Contact Form</a>
+				<!-- <a href="/projects" class="col-span-2 col-start-3 border-text border-[1px] rounded-full body px-5 py-2"> All Projects</a> -->
+				<a href="#contact_form" class="col-span-1 col-start-6 bg-company text-background rounded-full body px-5 py-2"> Contact Form</a>
 			</div>
 		</section>
 
@@ -116,24 +121,36 @@ import LandingCard from "../components/astro/LandingCard.astro"
 
 		<section class="w-full" id="all_projects_redirect">
 
-			<a class="w-full grid tablet:grid-cols-6 px-5 gap-x-5" href="/projects">
+			<a class="w-full grid tablet:grid-cols-6 px-5 gap-x-5 enter-animation-section group" href="/projects">
 				<!-- Top images -->
-				<div class="col-span-2 col-start-2 tablet:h-[380px] items-center flex overflow-hidden">
-					 <img src="/images/test/image_1.png" height="600px"/>
+				<div class="col-span-2 col-start-2 tablet:h-[380px] relative overflow-hidden">
+					<div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll">
+						<ProperEagerImage imagePath="/src/assets/landing/redirect/image_1.png" altText="an outdoor sitting area" />
+					</div>
 				</div>
-				<div class="col-span-2 col-start-5 tablet:h-[380px] items-center flex overflow-hidden">
-					<img src="/images/test/image_2.png" height="600px"/>
+
+				<div class="col-span-2 col-start-5 tablet:h-[380px] relative overflow-hidden">
+					<div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll" >
+						<ProperEagerImage imagePath="/src/assets/landing/redirect/image_2.png" altText="a fancy lamp" />
+					</div>
 				</div>
+
 
 				<!-- Link -->
-				 <h2 class="col-span-6 header text-center pt-4">See All Projects</h2>
+				 <h2 class="col-span-6 header text-center pt-4 text-text/60 group-hover:text-text duration-200 ease-in">See All Projects</h2>
 
 				<!-- Bottom images -->
-				<div class="col-span-2 col-start-1 tablet:h-[380px] mt-10 items-center flex overflow-hidden">
-					<img src="/images/test/image_3.png" height="600px"/>
+
+				<div class="col-span-2 col-start-1 tablet:h-[380px] mt-10 relative overflow-hidden">
+					<div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll">
+						<ProperEagerImage imagePath="/src/assets/landing/redirect/image_3.png" altText="a mirror" />
+					</div>
 				</div>
-				<div class="col-span-3 col-start-3 tablet:h-[380px] items-center flex overflow-hidden">
-					<img src="/images/test/image_4.png" height="600px"/>
+
+				<div class="col-span-3 col-start-3 tablet:h-[380px] relative overflow-hidden">
+					<div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll">
+						<ProperEagerImage imagePath="/src/assets/landing/redirect/image_4.png" altText="a sofa" />
+					</div>
 				</div>
 			</a>
 

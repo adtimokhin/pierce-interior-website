@@ -55,21 +55,61 @@ function animateImagesMouseMove(e) {
 }
 
 
+// Simple parallax on scroll
+const parallaxImages = gsap.utils.toArray(".parallax-scroll img");
+
+parallaxImages.forEach((img, index) => {
+    gsap.to(img, {
+        y: "-20%",
+        duration: 1,
+        scrollTrigger: {
+            trigger: img,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true
+        }
+
+    })
+});
+
+const enterAnimationSections = gsap.utils.toArray(".enter-animation-section");
+
+enterAnimationSections.forEach((section) => {
+    const images = section.getElementsByTagName("img");
+
+    gsap.set(images, { 
+        clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+    });
+
+    gsap.to(images, {
+        clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+        duration: 1,
+        ease:"power3.out",
+        immediateRender: false,
+        scrollTrigger: {
+            trigger: section,
+            start: "center 90%",
+        },
+        stagger: 0.1
+    },)
+
+});
+
 // 2. Parallax effect
 // The images inside the containers are larger than the containers themselves.
 // All of the images are of the known height, so we can use it to manipulate the images inside the containers
-const tlAllProjects = gsap.timeline({
-    scrollTrigger:{
-        trigger: "#all_projects_redirect",
-        start: "top center",
-        end: "bottom top",
-        scrub: 1,
-    }
-});
-tlAllProjects.to(sectionImages, {
-    y:"-40px",
-    stagger: 0.1
-});
+// const tlAllProjects = gsap.timeline({
+//     scrollTrigger:{
+//         trigger: "#all_projects_redirect",
+//         start: "top center",
+//         end: "bottom top",
+//         scrub: 1,
+//     }
+// });
+// tlAllProjects.to(sectionImages, {
+//     y:"-40px",
+//     stagger: 0.1
+// });
 
 // Animation Idea: Add it so that the images inside the containers will move in the direction the mouse moves
 // It might be too visually complex thought.
@@ -104,6 +144,7 @@ function calcTransform(property, value) {
       return computed; 
     };
   }
+
 
 
 

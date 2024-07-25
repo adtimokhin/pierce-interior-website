@@ -10,6 +10,7 @@ import Footer from "../components/astro/Footer.astro"
 import "../styles/next-project.scss"
 import "../styles/image-gallery.css"
 import ProperImage from '../components/astro/ProperImage.astro';
+import ProperEagerImage from '../components/astro/ProperEagerImage.astro';
 
 const {title, projectData} = Astro.props;
 ---
@@ -43,8 +44,10 @@ const {title, projectData} = Astro.props;
                 <p class="col-span-3 body">{projectData.hero.description}</p>
             </div>
 
-            <div class="w-full h-[80vh]">
-                <ProperImage imagePath={projectData.hero.img.url} altText={projectData.hero.img.alt}/>
+            <div class="w-full h-[80vh] relative overflow-hidden">
+                <div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll">
+                    <ProperEagerImage imagePath={projectData.hero.img.url} altText={projectData.hero.img.alt}/>
+                </div>
             </div>
     </section>
 
@@ -78,9 +81,9 @@ const {title, projectData} = Astro.props;
     </section>
 
     <!-- TODO: Add the parallax effect -->
-    <section class="px-5 w-full grid grid-cols-6 gap-x-5">
-        <div class="col-span-3 aspect-square ">
-            <ProperImage imagePath={projectData.twoImages[0].url} altText={projectData.twoImages[0].alt} />
+    <section class="px-5 w-full grid grid-cols-6 gap-x-5 enter-animation-section">
+        <div class="col-span-3 aspect-square">
+            <ProperImage imagePath={projectData.twoImages[0].url} altText={projectData.twoImages[0].alt}/>
         </div>
         <div class="col-span-3 aspect-square">
             <ProperImage imagePath={projectData.twoImages[1].url} altText={projectData.twoImages[1].alt} />
@@ -94,8 +97,10 @@ const {title, projectData} = Astro.props;
     </section>
 
     <section class="px-5 w-full">
-        <div class="w-full h-[80vh]">
-            <ProperImage imagePath={projectData.largeImage1.url} altText={projectData.largeImage1.alt} />
+        <div class="w-full h-[80vh] relative overflow-hidden">
+            <div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll">
+                <ProperEagerImage imagePath={projectData.largeImage1.url} altText={projectData.largeImage1.alt} />
+            </div>
         </div>
     </section>
 
@@ -111,10 +116,21 @@ const {title, projectData} = Astro.props;
         </div>
     </section>
 
+    <!-- <section class="h-screen w-full flex flex-col justify-center bg-purple-300">
+        <div class="translate-x-[15vw] w-fit h-fit flex flex-row justify-start items-center gap-[13rem] bg-red-300" id="draggable-container">
+            <div class="w-[400px] h-[600px] bg-lime-300"></div>
+            <div class="w-[400px] h-[600px] bg-lime-300"></div>
+            <div class="w-[400px] h-[600px] bg-lime-300"></div>
+            <div class="w-[400px] h-[600px] bg-lime-300"></div>
+            <div class="w-[400px] h-[600px] bg-lime-300"></div>
+            <div class="w-[400px] h-[600px] bg-lime-300"></div>
+        </div>
+    </section> -->
+
     <!-- TODO: Add the section with the draggable gallery -->
 
-    <section class="w-full px-5 flex flex-col gap-y-24">
-        <div class="grid grid-cols-6 gap-x-5">
+    <section class="w-full px-5 flex flex-col gap-y-24 ">
+        <div class="grid grid-cols-6 gap-x-5 enter-animation-section">
             <div class="col-span-3 aspect-square ">
                 <ProperImage imagePath={projectData.details[0].image.url} altText={projectData.details[0].image.alt} />
             </div>
@@ -128,7 +144,7 @@ const {title, projectData} = Astro.props;
             </div>
         </div>
 
-        <div class="grid grid-cols-6 gap-x-5">
+        <div class="grid grid-cols-6 gap-x-5 enter-animation-section">
             <div class="col-span-3 flex flex-col justify-start space-y-7 body">
                 <p>
                     {projectData.details[1].texts.text1}
@@ -145,8 +161,10 @@ const {title, projectData} = Astro.props;
 
     <div>
     <section class="w-full">
-        <div class="w-full h-[80vh]">
-            <ProperImage imagePath={projectData.fullscreenImage.url} altText={projectData.fullscreenImage.alt} />
+        <div class="w-full h-[80vh] relative overflow-hidden">
+            <div class="w-full h-[150%] absolute top-0 left-1/2 -translate-x-1/2 parallax-scroll">
+                <ProperEagerImage imagePath={projectData.fullscreenImage.url} altText={projectData.fullscreenImage.alt} />
+            </div>
         </div>
     </section>
     <section class="w-full h-[60vh] bg-company flex flex-col justify-center items-center" id="next-project-section">
@@ -176,6 +194,7 @@ const {title, projectData} = Astro.props;
 <script>
     import "../scripts/next-project-animation.js"
     import "../scripts/image-slider.js"
+    import "../scripts/project-page-animations.js"
 </script>
 
 </html>
