@@ -20,7 +20,7 @@ import '@fontsource-variable/montserrat';
 import '../styles/global.css'
 import Footer from "../components/astro/Footer.astro"
 
-const {title} = Astro.props;
+const {SEOObject} = Astro.props;
 ---
 
 <html lang="en">
@@ -29,7 +29,24 @@ const {title} = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content={SEOObject?.cardTitle} />
+    <meta property="og:description" content={SEOObject?.cardDescription}/>
+    <meta property="og:image" content={SEOObject?.cardURL} />
+    <meta property="og:url" content="https://filipchik-studio-website-redesign.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Pierce Interiors" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={SEOObject?.cardTitle} />
+    <meta name="twitter:description" content={SEOObject?.cardDescription} />
+    <meta name="twitter:image" content={SEOObject?.cardURL} />
+    <meta name="twitter:site" content="@Pierce_Interiors" />
+    
+    <title>{SEOObject?.pageTitle}</title>
+    <meta name="description" content={SEOObject?.pageDescription}>
 
   </head>
   <body>

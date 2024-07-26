@@ -3,7 +3,8 @@ import ProjectPageLayout from "../../layouts/ProjectPageLayout.astro";
 import contentData from '../../projectData.json';
 
 const pageContent = contentData["urban-oasis"];
+const SEOObject = pageContent.seo;
 ---
 
-<ProjectPageLayout title={pageContent.seo.pageTitle} projectData={pageContent}/>
+<ProjectPageLayout SEOObject={SEOObject} projectData={pageContent}/>
 

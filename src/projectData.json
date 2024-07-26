@@ -79,7 +79,7 @@
             "nextSlug" : "hamptons-heaven"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Skyline Serenity | March 2022"
+           "SEOObject" : {"cardTitle":"Pierce Interirios | Skyline Serenity", "cardDescription":"A modern, minimalist penthouse with panoramic views of the New York City skyline.",  "cardURL": "/images/seo/skyline-serenity.png", "pageDescription": "A modern, minimalist penthouse with panoramic views of the New York City skyline.", "pageTitle": "Pierce Interirios | Skyline Serenity"}
         }
     },
 
@@ -162,7 +162,7 @@
             "nextSlug" : "ocean-breeze-villa"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Hamptons Haven | June 2021"
+           "SEOObject" : {"cardTitle":"Pierce Interirios | Hamptons Heaven", "cardDescription":"A grand estate featuring classic, elegant decor and expansive grounds, designed to exude timeless sophistication.",  "cardURL": "/images/seo/hamptons-villa.png", "pageDescription": "A grand estate featuring classic, elegant decor and expansive grounds, designed to exude timeless sophistication.", "pageTitle": "Pierce Interirios | Hamptons Heaven"}
         }
     },
 
@@ -239,7 +239,7 @@
             "nextSlug" : "parisian-elegance"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Ocean Breeze Villa | June 2021"
+           "SEOObject" : {"cardTitle":"Pierce Interirios | Ocean Breeze Villa", "cardDescription":"A light, airy beachfront villa in Malibu featuring open-plan living spaces and seamless indoor-outdoor flow.",  "cardURL": "/images/seo/ocean-breeze-villa.png", "pageDescription": "A light, airy beachfront villa in Malibu featuring open-plan living spaces and seamless indoor-outdoor flow.", "pageTitle": "Pierce Interirios | Ocean Breeze Villa"}
         }
     },
 
@@ -325,7 +325,7 @@
             "nextSlug" : "urban-oasis"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Parisian Elegance | December 2020"
+           "SEOObject" : {"cardTitle":"Pierce Interirios | Parisian Elegance", "cardDescription":"A beautifully restored flat in the heart of Paris, combining classic French architecture with modern amenities.",  "cardURL": "/images/seo/parisian-elegance.png", "pageDescription": "A beautifully restored flat in the heart of Paris, combining classic French architecture with modern amenities.", "pageTitle": "Pierce Interirios | Parisian Elegance"}
         }
     },
 
@@ -409,7 +409,7 @@
             "nextSlug" : "loft-luxe"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Urban Oasis | February 2021"
+            "SEOObject" : {"cardTitle":"Pierce Interirios | Urban Oasis", "cardDescription":"A high-rise luxury apartment in Dubai featuring cutting-edge design and panoramic city views.",  "cardURL": "/images/seo/urban-oasis.png", "pageDescription": "A high-rise luxury apartment in Dubai featuring cutting-edge design and panoramic city views.", "pageTitle": "Pierce Interirios | Urban Oasis"}
         }
     },
 
@@ -493,7 +493,7 @@
             "nextSlug" : "seaside-sanctuary"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Loft Luxe | August 2020"
+            "SEOObject" : {"cardTitle":"Pierce Interirios | Loft Luxe", "cardDescription":"A contemporary loft located in the heart of London, designed to combine industrial chic with modern luxury.",  "cardURL": "/images/seo/loft-luxe.png", "pageDescription": "A contemporary loft located in the heart of London, designed to combine industrial chic with modern luxury.", "pageTitle": "Pierce Interirios | Loft Luxe"}
         }
     },
 
@@ -577,7 +577,7 @@
             "nextSlug" : "skyline-serenity"
         },
         "seo":{
-            "pageTitle" : "Pierce Interirios | Seaside Sanctuary | April 2020"
+            "SEOObject" : {"cardTitle":"Pierce Interirios | Seaside Sanctuary", "cardDescription":"A luxurious beachfront retreat in Miami designed to offer an elegant and serene living experience.",  "cardURL": "/images/seo/seaside-sanctuary.png", "pageDescription": "A luxurious beachfront retreat in Miami designed to offer an elegant and serene living experience.", "pageTitle": "Pierce Interirios | Seaside Sanctuary"}
         }
     }
 }
