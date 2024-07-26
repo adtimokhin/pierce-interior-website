@@ -75,7 +75,7 @@
         },
         "nextProject": {
             "nextProjectName": "Hamptons Haven",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/hamptons-heaven",
             "nextSlug" : "hamptons-heaven"
         },
         "seo":{
@@ -158,7 +158,7 @@
         },
         "nextProject": {
             "nextProjectName": "Ocean Breeze Villa",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/ocean-breeze-villa",
             "nextSlug" : "ocean-breeze-villa"
         },
         "seo":{
@@ -235,7 +235,7 @@
         },
         "nextProject": {
             "nextProjectName": "Parisian Elegance",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/parisian-elegance",
             "nextSlug" : "parisian-elegance"
         },
         "seo":{
@@ -321,7 +321,7 @@
         },
         "nextProject": {
             "nextProjectName": "Urban Oasis",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/urban-oasis",
             "nextSlug" : "urban-oasis"
         },
         "seo":{
@@ -405,7 +405,7 @@
         },
         "nextProject": {
             "nextProjectName": "Loft Luxe",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/loft-luxe",
             "nextSlug" : "loft-luxe"
         },
         "seo":{
@@ -489,7 +489,7 @@
         },
         "nextProject": {
             "nextProjectName": "Seaside Sanctuary",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/seaside-sanctuary",
             "nextSlug" : "seaside-sanctuary"
         },
         "seo":{
@@ -573,7 +573,7 @@
         },
         "nextProject": {
             "nextProjectName": "Skyline Serenity",
-            "imagesGalleryDir" : "/images/test/previews/hamptons-heaven",
+            "imagesGalleryDir" : "/src/assets/projects/skyline-serenity",
             "nextSlug" : "skyline-serenity"
         },
         "seo":{

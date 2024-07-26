@@ -11,6 +11,8 @@ import "../styles/next-project.scss"
 import "../styles/image-gallery.css"
 import ProperImage from '../components/astro/ProperImage.astro';
 import ProperEagerImage from '../components/astro/ProperEagerImage.astro';
+import { Image } from 'astro:assets';
+import ExpandedNavbar from '../components/astro/ExpandedNavbar.astro';
 
 const {title, projectData} = Astro.props;
 ---
@@ -28,6 +30,25 @@ const {title, projectData} = Astro.props;
     <div class="fixed h-[300px] w-[200px]" id="image-gallery-cursor">
       <div id="image-gallery" data-dest-folder={projectData.nextProject.imagesGalleryDir}/>
     </div>
+
+    <!-- Navbar -->
+    <nav class="sticky top-5 w-full z-50" id="navbar">
+        <div class="w-full tablet:px-5 grid tablet:grid-cols-6 gap-5" id="navbar-contents">
+            <a class="w-full flex justify-start" href="/">
+                <Image src="/icons/square_logo_bw.svg" width={39} height={39} alt="logo" loading="eager"/>
+            </a>
+            <div class="col-span-1 col-start-6 relative">
+                <div class="aspect-square h-[70px] absolute right-0 top-1/2 -translate-y-1/2 flex justify-center items-center" id="burger-menu-icon">
+                    <svg class="w-full" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 12.2667H32M0 18.6667H32" stroke="black" id="burger-path"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Expandable menu -->
+    <ExpandedNavbar/>
 
     <main class="gap-y-[12rem] flex flex-col">
 
@@ -195,6 +216,7 @@ const {title, projectData} = Astro.props;
     import "../scripts/next-project-animation.js"
     import "../scripts/image-slider.js"
     import "../scripts/project-page-animations.js"
+    import "../scripts/navbar.js"
 </script>
 
 </html>

@@ -1,12 +1,15 @@
 ---
+import { Image } from "astro:assets"
 import ListItem from "../components/astro/ListItem.astro"
 import BasicLayout from "../layouts/BaicLayout.astro"
 import "../styles/image-gallery.css"
 ---
 
 <BasicLayout title="Pierce Interirios | Projects">
-    <div class="gallery-cursor-area">
-        <div class="fixed h-[300px] w-[200px]" id="image-gallery-cursor">
+    
+
+        <div class="gallery-cursor-area">
+            <div class="fixed h-[300px] w-[200px]" id="image-gallery-cursor">
             <div id="image-gallery" data-dest-folder="/images/test/gallery"/>
         </div>
 
@@ -43,10 +46,10 @@ import "../styles/image-gallery.css"
                 <div class="w-full bg-background/60 h-[1px]"/>
             </ul>
         </main>
-    </div>
+
 
 </BasicLayout>
 
-<script>
+<script >
     import "../scripts/image-slider"
 </script>

@@ -146,32 +146,23 @@ function calcTransform(property, value) {
   }
 
 
+// Animation for the navbar
+// It is simple - the elements inside the navbar start off
+// slightly higher than where they are actually positioned
+// On scroll they'll move and thus appear to get to their
+// final position by scrolling
+const navContent = document.querySelector("#navbar-contents");
+const navTl = gsap.timeline({    
+    scrollTrigger: {
+    trigger: "#hero",
+    start: "bottom bottom",
+    end: "bottom top",
+    scrub: 1
+}});
 
+navTl.from(navContent, {
+    y: "-15.7rem",
+});
+navTl.to("#navbar-contact-link", {opacity: 0, visibility: "hidden"});
+navTl.to("#burger-menu-icon", {opacity:1, visibility: "visible"});
 
-// gsap.registerPlugin(ScrollTrigger);
-
-// let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
-
-// gsap.utils.toArray("section").forEach((section, i) => {
-//   section.bg = section.querySelector(".bg"); 
-
-//   // Give the backgrounds some random images
-//   section.bg.style.backgroundImage = `url(https://picsum.photos/1600/800?random=${i})`;
-  
-//   // the first image (i === 0) should be handled differently because it should start at the very top.
-//   // use function-based values in order to keep things responsive
-//   gsap.fromTo(section.bg, {
-//     backgroundPosition: () => i ? `50% ${-window.innerHeight * getRatio(section)}px` : "50% 0px"
-//   }, {
-//     backgroundPosition: () => `50% ${window.innerHeight * (1 - getRatio(section))}px`,
-//     ease: "none",
-//     scrollTrigger: {
-//       trigger: section,
-//       start: () => i ? "top bottom" : "top top", 
-//       end: "bottom top",
-//       scrub: true,
-//       invalidateOnRefresh: true // to make it responsive
-//     }
-//   });
-
-// });
