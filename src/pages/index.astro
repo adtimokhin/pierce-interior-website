@@ -40,8 +40,8 @@ import ExpandedNavbar from "../components/astro/ExpandedNavbar.astro"
 		<section class="w-full h-screen" id="hero">
 			<div class="w-full space-y-7">
 			<!-- Image goes to here -->
-			<div class="w-full h-[50vh] relative overflow-hidden z-20" id="main-hero-img-container">
-				<div class="w-full h-[250%] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/3 parallax-scroll z-10" id="hero-image-container">
+			<div class="w-full h-[50vh] relative overflow-hidden z-40" id="main-hero-img-container">
+				<div class="w-full h-[250%] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/3 parallax-scroll z-40" id="hero-image-container">
 					<ProperEagerImage imagePath="/src/assets/landing/hero.png" altText="a blue room with a sofa" />
 				</div>
 			</div>
@@ -83,7 +83,7 @@ import ExpandedNavbar from "../components/astro/ExpandedNavbar.astro"
 		</section>
 
 		<!-- the unexpected navbar -->
-		<nav class="sticky top-5 w-full z-50" id="navbar">
+		<nav class="sticky top-5 w-full z-30" id="navbar">
 			<div class="w-full tablet:px-5 grid tablet:grid-cols-6 gap-5" id="navbar-contents">
 				<div class="w-full flex justify-start">
 					<Image src="/icons/square_logo_bw.svg" width={39} height={39} alt="logo" loading="eager"/>
@@ -256,83 +256,83 @@ import ExpandedNavbar from "../components/astro/ExpandedNavbar.astro"
 	import "../scripts/cursor.js"
 	import "../scripts/navbar.js"
 	
-	// import gsap from "gsap";
+	import gsap from "gsap";
 
 
-	// // preloader animation
-	// const startTime = new Date();
-	// const preloader = document.getElementById("preloader");
+	// preloader animation
+	const startTime = new Date();
+	const preloader = document.getElementById("preloader");
 
-	// gsap.set("html", {overflow:"hidden", height: "100vh"});
+	gsap.set("html", {overflow:"hidden", height: "100vh"});
 
-	// gsap.from("#counter", {
-	// 	y: "100%",
-	// 	duration: 0.75,
-	// 	ease: "power3.out",
-	// });
+	gsap.from("#counter", {
+		y: "100%",
+		duration: 0.75,
+		ease: "power3.out",
+	});
 
-	// gsap.set("#preview-logo", {opacity:1, y:"-100%"})
+	gsap.set("#preview-logo", {opacity:1, y:"-100%"})
 
-	// // // Start playing animation
-	// document.addEventListener("DOMContentLoaded", ()=>{
-	// 	console.log("page began loading");
-	// });
+	// // Start playing animation
+	document.addEventListener("DOMContentLoaded", ()=>{
+		console.log("page began loading");
+	});
 
-	// //End playing animation
-	// window.onload = () => {
-	// 	const finishTime = new Date();
-	// 	const timeDiff = finishTime - startTime;
-	// 	console.log("page loaded in", timeDiff, "ms");
-	// 	const expectedLoad = 2250; // given in ms also 
-	// 	const delay = Math.max(0, (expectedLoad - timeDiff)) + 750; // default: 200ms
-	// 	console.log("DEV>>>> delay:", delay, "ms");
+	//End playing animation
+	window.onload = () => {
+		const finishTime = new Date();
+		const timeDiff = finishTime - startTime;
+		console.log("page loaded in", timeDiff, "ms");
+		const expectedLoad = 2250; // given in ms also 
+		const delay = Math.max(0, (expectedLoad - timeDiff)) + 750; // default: 200ms
+		console.log("DEV>>>> delay:", delay, "ms");
 
-	// 	setTimeout(()=>{
-	// 		// Play animation when the preloading screen is ready to be removed
-	// 		// gsap.to("#preloader", { opacity: 0});
-	// 		const tl = gsap.timeline();
-	// 		tl.to("#counter", {
-	// 			y: "100%",
-	// 			duration: 0.75,
-	// 			ease: "power3.out",
-	// 		});
+		setTimeout(()=>{
+			// Play animation when the preloading screen is ready to be removed
+			// gsap.to("#preloader", { opacity: 0});
+			const tl = gsap.timeline();
+			tl.to("#counter", {
+				y: "100%",
+				duration: 0.75,
+				ease: "power3.out",
+			});
 
-	// 		tl.to("#preview-logo",  {
-	// 			y: "0%",				
-	// 			duration: 0.75,
-	// 			ease: "power3.out"
-	// 		});
+			tl.to("#preview-logo",  {
+				y: "0%",				
+				duration: 0.75,
+				ease: "power3.out"
+			});
 
-	// 		// Moving the hero image
-	// 		gsap.set("#main-hero-img-container", {height: "100vh", width: "100vw"})
+			// Moving the hero image
+			gsap.set("#main-hero-img-container", {height: "100vh", width: "100vw"})
 
-	// 		tl.to(preloader, {
-	// 			backgroundColor: "transparent",
-	// 			duration: 1.50,
-	// 			ease: "power3.out"
-	// 		});
+			tl.to(preloader, {
+				backgroundColor: "transparent",
+				duration: 1.50,
+				ease: "power3.out"
+			});
 
-	// 		tl.to("#preview-logo",  {
-	// 			y: "-100%",				
-	// 			duration: 0.75,
-	// 			ease: "power2.out"
-	// 		});
+			tl.to("#preview-logo",  {
+				y: "-100%",				
+				duration: 0.75,
+				ease: "power2.out"
+			});
 
-	// 		tl.to("#main-hero-img-container", {
-	// 			height: "50vh", 
-	// 			width: "100vw", 
-	// 			duration: 0.75,
-	// 			ease: "power2.out",
-	// 			delay: -0.75,
+			tl.to("#main-hero-img-container", {
+				height: "50vh", 
+				width: "100vw", 
+				duration: 0.75,
+				ease: "power2.out",
+				delay: -0.75,
 
-	// 			onComplete: ()=>{
-	// 				// remove the preloader from the screen
-	// 				gsap.set("html", {overflow:"", height: ""});
-	// 				preloader.remove();
-	// 			}
-	// 		});
-	// 	}, delay);
-	// };
+				onComplete: ()=>{
+					// remove the preloader from the screen
+					gsap.set("html", {overflow:"", height: ""});
+					preloader.remove();
+				}
+			});
+		}, delay);
+	};
 
 
 
